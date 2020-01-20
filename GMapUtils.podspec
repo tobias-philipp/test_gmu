@@ -39,4 +39,9 @@ TODO: Add long description of the pod here.
   s.public_header_files = 'Pod/Classes/GMapUtils-Brdiging-Header.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'GoogleMaps', '~> 3.5.0'
+  s.pod_target_xcconfig   = {
+
+    'SWIFT_VERSION' => '5.2',
+    'VALID_ARCHS' => 'x86_64 arm64'
+  }
 end
