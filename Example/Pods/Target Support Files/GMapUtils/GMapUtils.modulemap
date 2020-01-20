@@ -1,6 +1,0 @@
-framework module GMapUtils {
-  umbrella header "GMapUtils-umbrella.h"
-
-  export *
-  module * { export * }
-}
