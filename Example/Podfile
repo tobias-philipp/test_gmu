@@ -1,0 +1,6 @@
+use_frameworks!
+target 'GMapUtils_Tests' do
+  pod 'GMapUtils', :path => '../'
+  
+  
+end
