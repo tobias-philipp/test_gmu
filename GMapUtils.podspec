@@ -39,7 +39,9 @@ No changes have been made to the original files. No warranty it actually works.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.static_framework = true
+
+   s.dependency 'GoogleMaps', '~> 3.5.0'
 
   s.platform     = :ios, '12.0'
   s.requires_arc = true
