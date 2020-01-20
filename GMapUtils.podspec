@@ -47,6 +47,6 @@ No changes have been made to the original files. No warranty it actually works.
   s.pod_target_xcconfig = {
     "OTHER_LDFLAGS" => '$(inherited) -framework "GoogleMaps"',
     "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => 'YES',
-    "FRAMEWORK_SEARCH_PATHS" => '$(inherited) "${PODS_ROOT}/GoogleMaps/Base/Frameworks" "${PODS_ROOT}/GoogleMaps/Map/Frameworks"',
+    "FRAMEWORK_SEARCH_PATHS" => '$(inherited) "${PODS_ROOT}/GoogleMaps/Base/Frameworks" "${PODS_ROOT}/GoogleMaps/Maps/Frameworks"',
   }
 end
