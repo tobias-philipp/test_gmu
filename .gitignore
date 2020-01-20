@@ -1,0 +1,12 @@
+project.xcworkspace/
+xcuserdata/
+.DS_Store
+DerivedData/
+
+Pods/
+*.dSYM.zip
+*.ipa
+
+*.orig
+
+tmp/
