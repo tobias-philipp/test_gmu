@@ -15,5 +15,7 @@ target 'Pods-GMapUtils_Tests' do
   use_frameworks!
 
   # Pods for Pods-GMapUtils_Tests
+  pod 'GoogleMaps', '~> 3.5.0'
+
 
 end
