@@ -38,6 +38,7 @@ TODO: Add long description of the pod here.
 
   s.public_header_files = 'Pod/Classes/GMapUtils-Brdiging-Header.h'
   # s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'GoogleMaps', '~> 3.5.0'
   s.frameworks = 'GoogleMaps'
   s.resource_bundles = { 'GoogleMaps' => ['Pod/Dependencies/GoogleMaps.framework/Resources/*.bundle'] }
   s.vendored_frameworks = 'Pod/Dependencies/GoogleMaps.framework'
