@@ -44,5 +44,9 @@ No changes have been made to the original files. No warranty it actually works.
   s.platform     = :ios, '12.0'
   s.requires_arc = true
 
-  s.dependency 'GoogleMaps', '~> 3.5.0'
+  s.pod_target_xcconfig = {
+    "OTHER_LDFLAGS" => '$(inherited) -framework "GoogleMaps"',
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => 'YES',
+    "FRAMEWORK_SEARCH_PATHS" => '$(inherited) "${PODS_ROOT}/GoogleMaps/Frameworks"',
+  }
 end
